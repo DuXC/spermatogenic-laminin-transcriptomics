@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "figures": [
+    {
+      "figure": "Figure_7_External_Bulk_Validation.png",
+      "sha256": "0a8469dc23fbfbf0a8f3016c57fb38ea204198d34d0991f1c187eeb7857857d0",
+      "status": "PASS"
+    },
+    {
+      "figure": "Figure_8_External_Peritubular_Validation.png",
+      "sha256": "97f90f5c0b76d991a90c89f03e91bdd14b9f4b752fa4e68f56784f41f46f9aa1",
+      "status": "PASS"
+    },
+    {
+      "figure": "Figure_S6_External_Validation_QC.png",
+      "sha256": "c166c3b9f1ae4791601354ab51c1cd309155c63e56da4b6983b609b07c4bd6cf",
+      "status": "PASS"
+    }
+  ]
+}

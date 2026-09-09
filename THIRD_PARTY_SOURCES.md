@@ -7,3 +7,12 @@
 - MSigDB 2025.1.Hs: C2 Reactome and C5 GO cellular-component files, https://www.gsea-msigdb.org/gsea/msigdb/ . CC BY 4.0, copyright Broad Institute, Massachusetts Institute of Technology and Regents of the University of California; https://www.gsea-msigdb.org/gsea/msigdb_license_terms.jsp . The analysis uses six frozen pathways. Original source genes were mapped to approved HGNC symbols; these mappings are recorded. The deposited files are the Reactome and GO collections used, without KEGG MEDICUS sets.
 
 This archive attributes reused data and does not transfer ownership of the original studies. Cite the original sources and comply with their applicable terms when reusing those materials. Third-party source files are not relicensed by the project MIT license.
+
+## External validation sources in v0.2.0
+
+- GSE9210, 58 individual biopsies: Okada et al., PLoS Genetics 2008, [10.1371/journal.pgen.0040026](https://doi.org/10.1371/journal.pgen.0040026).
+- GSE108886, 11 individual biopsies and one excluded commercial pooled reference: [native GEO record](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE108886). A linked original publication was not identified in the inspected series record.
+- GSE153947, six adult donors, original fractional count estimates and published cell metadata: Di Persio et al., Cell Reports Medicine 2021, [10.1016/j.xcrm.2021.100395](https://doi.org/10.1016/j.xcrm.2021.100395).
+- Other inspected GEO series are documented in the external eligibility audit, with explicit reanalysis links where present. They are not automatically independent cohorts.
+
+GEO source deposits and original studies retain their own rights and attribution requirements. Our MIT/CC BY licenses apply to our code and original derived material; they do not supersede third-party terms. No third-party full-text article is included in this release asset.

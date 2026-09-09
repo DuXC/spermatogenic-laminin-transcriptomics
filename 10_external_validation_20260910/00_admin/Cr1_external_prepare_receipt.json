@@ -1,0 +1,18 @@
+{
+  "donor": "Cr1",
+  "status": "COUNTS_AGGREGATED_BEFORE_ECM_INFERENCE",
+  "cells": 4281,
+  "mt20_cells": 4235,
+  "original_features": 56981,
+  "mapped_genes": 37355,
+  "counts_are_fractional_estimates": true,
+  "rounding_applied": false,
+  "min_detected_features": 269,
+  "mito_fraction_range": [
+    0.0,
+    0.5430345911949684
+  ],
+  "provided_mito_fraction_max_difference": 0.011316694171545849,
+  "raw_sha256": "c4b91f25cdd31eff0b1ac328d359a763b1161ac5d2a16962111783dd8eaec965",
+  "published_cell_mapping_complete": true
+}

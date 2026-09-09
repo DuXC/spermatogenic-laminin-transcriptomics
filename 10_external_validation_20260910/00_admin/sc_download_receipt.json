@@ -1,0 +1,54 @@
+{
+  "retrieved_at_utc": "2026-09-09T16:32:36.799321+00:00",
+  "files": [
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658980/suppl/GSM4658980_N1_counts.tsv.gz",
+      "path": "02_raw/GSM4658980_N1_counts.tsv.gz",
+      "bytes": 17677629,
+      "sha256": "f8337905519fda98733bab3d0560417aab3eefbd3fc537e522ec864e0fef6354"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658981/suppl/GSM4658981_N2_counts.tsv.gz",
+      "path": "02_raw/GSM4658981_N2_counts.tsv.gz",
+      "bytes": 26261212,
+      "sha256": "bc4d81fef2cbfc37d2765a15420e9be022da04eb9b8867458a4e387bdfebe18d"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658982/suppl/GSM4658982_N3_counts.tsv.gz",
+      "path": "02_raw/GSM4658982_N3_counts.tsv.gz",
+      "bytes": 21030824,
+      "sha256": "f432835befb4ee4d6c84786911150216b73ad815451280b3ab720cf7ab7339fe"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658983/suppl/GSM4658983_Cr1_counts.tsv.gz",
+      "path": "02_raw/GSM4658983_Cr1_counts.tsv.gz",
+      "bytes": 15307510,
+      "sha256": "c4b91f25cdd31eff0b1ac328d359a763b1161ac5d2a16962111783dd8eaec965"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658984/suppl/GSM4658984_Cr2_counts.tsv.gz",
+      "path": "02_raw/GSM4658984_Cr2_counts.tsv.gz",
+      "bytes": 14101801,
+      "sha256": "2e5e157d78e9a602355468a4279bccc196414f45a39f091738ef9ab26f2026f1"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4658nnn/GSM4658985/suppl/GSM4658985_Cr3_counts.tsv.gz",
+      "path": "02_raw/GSM4658985_Cr3_counts.tsv.gz",
+      "bytes": 14863111,
+      "sha256": "b7fcf7594b69603607f59704c8d2215faa384460a6f334da0b1f9e6750711618"
+    },
+    {
+      "status": "VERIFIED_GZIP",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE153nnn/GSE153947/suppl/GSE153947_Cell_metadata.tsv.gz",
+      "path": "01_metadata/GSE153947_Cell_metadata.tsv.gz",
+      "bytes": 544408,
+      "sha256": "42b971d496bfed8b2672619af25171d40f65240bbe595af651d055372bbbb90b"
+    }
+  ]
+}

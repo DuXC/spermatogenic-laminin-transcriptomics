@@ -1,0 +1,18 @@
+{
+  "donor": "N1",
+  "status": "COUNTS_AGGREGATED_BEFORE_ECM_INFERENCE",
+  "cells": 5432,
+  "mt20_cells": 5432,
+  "original_features": 56981,
+  "mapped_genes": 37355,
+  "counts_are_fractional_estimates": true,
+  "rounding_applied": false,
+  "min_detected_features": 559,
+  "mito_fraction_range": [
+    0.0,
+    0.16437887089119588
+  ],
+  "provided_mito_fraction_max_difference": 0.0035945873567316683,
+  "raw_sha256": "f8337905519fda98733bab3d0560417aab3eefbd3fc537e522ec864e0fef6354",
+  "published_cell_mapping_complete": true
+}

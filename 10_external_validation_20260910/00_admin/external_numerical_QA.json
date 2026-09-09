@@ -1,0 +1,474 @@
+{
+  "status": "PASS",
+  "checks_passed": 117,
+  "checks": [
+    {
+      "check": "Frozen EXTERNAL_VALIDATION_SCOPE_v1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Frozen COHORT_ANALYSIS_PLAN_v1.md",
+      "status": "PASS"
+    },
+    {
+      "check": "Frozen fixed_gene_sets.json",
+      "status": "PASS"
+    },
+    {
+      "check": "Frozen hgnc_complete_set.txt",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 unique patient groups",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 excludes pooled control",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation REACTOME_COLLAGEN_FORMATION",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation REACTOME_LAMININ_INTERACTIONS",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation GOCC_BASEMENT_MEMBRANE",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation Sertoli_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 independent score calculation Peritubular_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 BH six",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE9210 all gene intervals and FDR",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 unique patient groups",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 excludes pooled control",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation REACTOME_COLLAGEN_FORMATION",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation REACTOME_LAMININ_INTERACTIONS",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation GOCC_BASEMENT_MEMBRANE",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation Sertoli_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation Leydig_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation Peritubular_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation Meiotic_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 independent score calculation Postmeiotic_markers",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 BH six",
+      "status": "PASS"
+    },
+    {
+      "check": "GSE108886 all gene intervals and FDR",
+      "status": "PASS"
+    },
+    {
+      "check": "External 12-test score family",
+      "status": "PASS"
+    },
+    {
+      "check": "Twenty native sample reuse links",
+      "status": "PASS"
+    },
+    {
+      "check": "Pseudobulk column identity",
+      "status": "PASS"
+    },
+    {
+      "check": "Fractional count preservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N1 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N2 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "N3 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr1 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr2 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 primary count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 mt20 count conservation",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Peritubular_compartment mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Sertoli mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Leydig mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Endothelial mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Macrophage mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Perivascular mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Author_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 Author_fibrotic_PMC_state mitochondrial subset count bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Cr3 downloaded source unchanged",
+      "status": "PASS"
+    },
+    {
+      "check": "Eligible compartments are prespecified",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH mt20__Author_PMC_state__unadjusted estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH mt20__Author_PMC_state__unadjusted fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH mt20__Peritubular_compartment__unadjusted estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH mt20__Peritubular_compartment__unadjusted fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Author_PMC_state__age_adjusted estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Author_PMC_state__age_adjusted fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Author_PMC_state__unadjusted estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Author_PMC_state__unadjusted fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Peritubular_compartment__age_adjusted estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary__Peritubular_compartment__age_adjusted fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary_somatic estimated",
+      "status": "PASS"
+    },
+    {
+      "check": "SC BH primary_somatic fixed_0.01",
+      "status": "PASS"
+    },
+    {
+      "check": "Every SC scenario reports all 30 members",
+      "status": "PASS"
+    },
+    {
+      "check": "SC intervals contain all measured estimates",
+      "status": "PASS"
+    },
+    {
+      "check": "Published cells counted once",
+      "status": "PASS"
+    }
+  ]
+}

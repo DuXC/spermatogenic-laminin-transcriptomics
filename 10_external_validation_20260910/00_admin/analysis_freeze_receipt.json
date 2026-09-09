@@ -1,0 +1,22 @@
+{
+  "frozen_at_utc": "2026-09-09T16:38:01.258176+00:00",
+  "status": "FROZEN_BEFORE_NEW_ECM_INFERENCE",
+  "files": [
+    {
+      "file": "00_admin/EXTERNAL_VALIDATION_SCOPE_v1.md",
+      "sha256": "ca9bf42a131ca548eb3b3cd76bc32e6b8fea6a46f2d88762c3e0125e46a2be2a"
+    },
+    {
+      "file": "00_admin/COHORT_ANALYSIS_PLAN_v1.md",
+      "sha256": "1832bde5b766315cc4b06bb789aef7cfa1383805ff9b0c79d52c4d0173106e96"
+    },
+    {
+      "file": "01_metadata/fixed_gene_sets.json",
+      "sha256": "fe2d8c58b254252d763359ea25b575ff6ee5e3a97ebe8f25dbeee2a8a4e2a258"
+    },
+    {
+      "file": "../01_raw/hgnc_complete_set.txt",
+      "sha256": "6f43d6ff43aa9fdfa5fb2f20a20a7cace66e6e02e2a0dcf19d9b726e2e248d20"
+    }
+  ]
+}

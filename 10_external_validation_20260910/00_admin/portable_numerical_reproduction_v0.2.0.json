@@ -1,0 +1,249 @@
+{
+  "status": "PASS",
+  "rtol": 1e-10,
+  "atol": 1e-12,
+  "compared_tables": 40,
+  "checks": [
+    {
+      "file": "03_processed/GSE9210_primary_gene_expression.tsv.gz",
+      "rows": 4993,
+      "numeric_columns": 58,
+      "status": "PASS"
+    },
+    {
+      "file": "03_processed/GSE9210_available_case_gene_expression.tsv.gz",
+      "rows": 12924,
+      "numeric_columns": 58,
+      "status": "PASS"
+    },
+    {
+      "file": "03_processed/GSE108886_primary_gene_expression.tsv.gz",
+      "rows": 15721,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "03_processed/GSE108886_all_mapped_gene_expression.tsv.gz",
+      "rows": 23006,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "01_metadata/GSE9210_probe_mapping.tsv.gz",
+      "rows": 22575,
+      "numeric_columns": 8,
+      "status": "PASS"
+    },
+    {
+      "file": "01_metadata/GSE108886_probe_mapping.tsv.gz",
+      "rows": 47323,
+      "numeric_columns": 7,
+      "status": "PASS"
+    },
+    {
+      "file": "01_metadata/external_program_coverage.tsv",
+      "rows": 44,
+      "numeric_columns": 2,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_PCA.tsv",
+      "rows": 11,
+      "numeric_columns": 4,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_all_genes.tsv.gz",
+      "rows": 15721,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_all_mapped_genes.tsv.gz",
+      "rows": 23006,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_all_mapped_score_effects.tsv",
+      "rows": 11,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_camera.tsv",
+      "rows": 12,
+      "numeric_columns": 5,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_leave_one_out.tsv",
+      "rows": 121,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_postmeiotic_adjusted_scores.tsv",
+      "rows": 10,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_sample_correlations.tsv",
+      "rows": 11,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_score_effects.tsv",
+      "rows": 11,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE108886_scores.tsv",
+      "rows": 11,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_PCA.tsv",
+      "rows": 58,
+      "numeric_columns": 4,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_all_genes.tsv.gz",
+      "rows": 4993,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_available_case_genes.tsv.gz",
+      "rows": 12924,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_camera.tsv",
+      "rows": 10,
+      "numeric_columns": 5,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_leave_one_out.tsv",
+      "rows": 464,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_sample_correlations.tsv",
+      "rows": 58,
+      "numeric_columns": 58,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_score_effects.tsv",
+      "rows": 8,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/GSE9210_scores.tsv",
+      "rows": 11,
+      "numeric_columns": 58,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/all_30_laminin_gene_evidence.tsv",
+      "rows": 120,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/analysis_availability.tsv",
+      "rows": 3,
+      "numeric_columns": 0,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/external_camera.tsv",
+      "rows": 22,
+      "numeric_columns": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/bulk/external_score_effects.tsv",
+      "rows": 19,
+      "numeric_columns": 11,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/all_30_laminin_gene_effects.tsv",
+      "rows": 180,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/all_gene_effects.tsv.gz",
+      "rows": 98533,
+      "numeric_columns": 10,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/donor_compartment_eligibility.tsv",
+      "rows": 16,
+      "numeric_columns": 4,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/donor_descriptive_program_scores.tsv",
+      "rows": 144,
+      "numeric_columns": 3,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/mt20__Author_PMC_state__unadjusted_voom_logCPM.tsv.gz",
+      "rows": 16439,
+      "numeric_columns": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/mt20__Peritubular_compartment__unadjusted_voom_logCPM.tsv.gz",
+      "rows": 16390,
+      "numeric_columns": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/primary__Author_PMC_state__unadjusted_voom_logCPM.tsv.gz",
+      "rows": 16446,
+      "numeric_columns": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/primary__Peritubular_compartment__unadjusted_voom_logCPM.tsv.gz",
+      "rows": 16406,
+      "numeric_columns": 6,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/program_camera_and_effects.tsv",
+      "rows": 72,
+      "numeric_columns": 7,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/program_member_coverage.tsv",
+      "rows": 36,
+      "numeric_columns": 3,
+      "status": "PASS"
+    },
+    {
+      "file": "04_results/single_cell/pseudobulk_library_QC.tsv",
+      "rows": 24,
+      "numeric_columns": 6,
+      "status": "PASS"
+    }
+  ],
+  "raw_single_cell_aggregation_repeated_in_packaging": false
+}

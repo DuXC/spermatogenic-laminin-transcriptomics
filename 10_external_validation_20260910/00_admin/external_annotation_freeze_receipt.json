@@ -1,0 +1,10 @@
+{
+  "status": "REVIEWED_BEFORE_SC_ECM_INFERENCE",
+  "recorded_at_utc": "2026-09-09T16:50:12.369282+00:00",
+  "review_sha256": "db68a0c24a7d52517bdd559e10bae68bb2d55f3151ec0e3c84eafb0f87a0519e",
+  "cells": 28666,
+  "pseudobulk_units": 96,
+  "mapped_genes": 37355,
+  "all_source_rows_retained": true,
+  "broad_compartment_interpretation": "author-defined mixture of peritubular stromal states"
+}

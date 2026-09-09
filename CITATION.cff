@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite this version and the original data-generating studies."
 type: software
 title: "Spermatogenic laminin transcriptomics code and source data"
-version: 0.1.1
+version: 0.2.0
 date-released: 2026-09-10
 repository-code: https://github.com/DuXC/spermatogenic-laminin-transcriptomics
 authors:

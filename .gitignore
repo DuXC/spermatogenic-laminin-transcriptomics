@@ -17,3 +17,8 @@ env/R_library/
 __pycache__/
 *.pyc
 *.zip
+
+10_external_validation_20260910/01_metadata/
+10_external_validation_20260910/02_raw/
+10_external_validation_20260910/08_tables/
+10_external_validation_20260910/09_references/
