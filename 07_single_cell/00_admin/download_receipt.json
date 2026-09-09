@@ -1,0 +1,186 @@
+[
+  {
+    "file": "GSM4504182_LZ003matrix.csv.gz",
+    "donor_id": "LZ003",
+    "group": "adult_normal_spermatogenesis_OA",
+    "technology": "10X",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504182/suppl/GSM4504182_LZ003matrix.csv.gz",
+    "bytes": 26676714,
+    "sha256": "7fb4d9ea3a3abc40283f4d58cee021954a76e1145f3acbfaf8c9feb960ab978e",
+    "retrieved_utc": "2026-09-09T02:21:58.222673+00:00",
+    "header_fields": 6901,
+    "first_header_fields": [
+      "",
+      "LZ003_AAAGATGAGACGACGT",
+      "LZ003_AACTGGTCAATCGGTT",
+      "LZ003_AAGACCTGTGATGCCC"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504185_LZ007matrix.csv.gz",
+    "donor_id": "LZ007",
+    "group": "adult_normal_spermatogenesis_OA",
+    "technology": "10X",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504185/suppl/GSM4504185_LZ007matrix.csv.gz",
+    "bytes": 35880522,
+    "sha256": "88c13e1970716e3e2a6bd18a1716aaece91b46445431c107f5328b8abcbd434e",
+    "retrieved_utc": "2026-09-09T02:21:55.038280+00:00",
+    "header_fields": 10441,
+    "first_header_fields": [
+      "",
+      "LZ007_AATCGTGCAGAACCGA",
+      "LZ007_AGACAAAAGAGGGTCT",
+      "LZ007_AGCGTATTCTGGACCG"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504191_LZ013matrix.csv.gz",
+    "donor_id": "LZ013",
+    "group": "adult_normal_spermatogenesis_OA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504191/suppl/GSM4504191_LZ013matrix.csv.gz",
+    "bytes": 9814837,
+    "sha256": "e3eed4534b880ad94d9c5d010da3b2bfd7afd2d827b6d82e1d392b36c9a624a0",
+    "retrieved_utc": "2026-09-09T02:21:58.611544+00:00",
+    "header_fields": 3226,
+    "first_header_fields": [
+      "",
+      "LZ013_367647",
+      "LZ013_40571",
+      "LZ013_707309"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504192_LZ014matrix.csv.gz",
+    "donor_id": "LZ014",
+    "group": "adult_normal_spermatogenesis_OA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504192/suppl/GSM4504192_LZ014matrix.csv.gz",
+    "bytes": 11281169,
+    "sha256": "f90a6a3094621178b548792f9c064503a8fac06729e96e15165c2ba5e8abd57f",
+    "retrieved_utc": "2026-09-09T02:22:01.796129+00:00",
+    "header_fields": 3478,
+    "first_header_fields": [
+      "",
+      "LZ014_694604",
+      "LZ014_591450",
+      "LZ014_484455"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504193_LZ015matrix.csv.gz",
+    "donor_id": "LZ015",
+    "group": "adult_normal_spermatogenesis_OA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504193/suppl/GSM4504193_LZ015matrix.csv.gz",
+    "bytes": 11725269,
+    "sha256": "679d4698b04020fd01e8f520cf2619b9048c646626fd7b6970ac2eb863a31753",
+    "retrieved_utc": "2026-09-09T02:22:02.348708+00:00",
+    "header_fields": 3556,
+    "first_header_fields": [
+      "",
+      "LZ015_33363",
+      "LZ015_62085",
+      "LZ015_73015"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504195_LZ017matrix.csv.gz",
+    "donor_id": "LZ017",
+    "group": "iNOA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504195/suppl/GSM4504195_LZ017matrix.csv.gz",
+    "bytes": 16668587,
+    "sha256": "1af21a47574a72e4839555c08e24f17065fbfe6d1304140d211834055dd00fa0",
+    "retrieved_utc": "2026-09-09T02:22:05.812695+00:00",
+    "header_fields": 7608,
+    "first_header_fields": [
+      "",
+      "LZ017_37454",
+      "LZ017_476779",
+      "LZ017_803304"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504196_LZ018matrix.csv.gz",
+    "donor_id": "LZ018",
+    "group": "iNOA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504196/suppl/GSM4504196_LZ018matrix.csv.gz",
+    "bytes": 14917698,
+    "sha256": "4166c6150b180e6196da9003de5ced4a32f40bfcd4c80ded319f7f4feae93512",
+    "retrieved_utc": "2026-09-09T02:22:06.446470+00:00",
+    "header_fields": 6734,
+    "first_header_fields": [
+      "",
+      "LZ018_247381",
+      "LZ018_225886",
+      "LZ018_203312"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  {
+    "file": "GSM4504197_LZ019matrix.csv.gz",
+    "donor_id": "LZ019",
+    "group": "iNOA",
+    "technology": "BD_Rhapsody",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM4504nnn/GSM4504197/suppl/GSM4504197_LZ019matrix.csv.gz",
+    "bytes": 14795515,
+    "sha256": "8f1b547ea3a40b22a17a55a8cdf95413c554fa8e05f07818ade628989933c80e",
+    "retrieved_utc": "2026-09-09T02:22:11.419832+00:00",
+    "header_fields": 6879,
+    "first_header_fields": [
+      "",
+      "LZ019_230708",
+      "LZ019_177980",
+      "LZ019_733800"
+    ],
+    "first_data_fields": [
+      "RP11.34P13.7",
+      "0",
+      "0",
+      "0"
+    ]
+  }
+]

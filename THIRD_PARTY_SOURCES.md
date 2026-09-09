@@ -1,0 +1,9 @@
+# Original sources and rights
+
+- GEO GSE4797: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4797 . Feig et al., 2007, https://doi.org/10.1093/molehr/gal097 . GPL2891 annotation is preserved with the 2007-11-23 automatic annotation snapshot.
+- GEO GSE145467: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE145467 . Hodzic et al., 2023, https://doi.org/10.3389/fmolb.2023.1226829 . Values are processed Cy5/common-reference log ratios; GPL4133 supplies original probe annotation.
+- GEO GSE149512: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149512 . Zhao et al., 2020, https://doi.org/10.1038/s41467-020-19414-4 . Original public donor metadata and derived reconciled metadata are distinguished; the marker spreadsheet is original Supplementary Data 1, distributed with the source article under CC BY 4.0. GEO data remain attributable to their original producers, and source-study rights are retained.
+- HGNC complete-set snapshot acquired 2026-09-09: https://www.genenames.org/ . HGNC data are CC0; https://www.genenames.org/about/license/ . The exact snapshot is retained because current symbols may change.
+- MSigDB 2025.1.Hs: C2 Reactome and C5 GO cellular-component files, https://www.gsea-msigdb.org/gsea/msigdb/ . CC BY 4.0, copyright Broad Institute, Massachusetts Institute of Technology and Regents of the University of California; https://www.gsea-msigdb.org/gsea/msigdb_license_terms.jsp . The analysis uses six frozen pathways. Original source genes were mapped to approved HGNC symbols; these mappings are recorded. The deposited files are the Reactome and GO collections used, without KEGG MEDICUS sets.
+
+This archive attributes reused data and does not transfer ownership of the original studies. Cite the original sources and comply with their applicable terms when reusing those materials. Third-party source files are not relicensed by the project MIT license.

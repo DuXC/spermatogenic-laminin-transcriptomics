@@ -1,0 +1,40 @@
+{
+  "Laminin chains": [
+    "LAMA1",
+    "LAMA2",
+    "LAMA3",
+    "LAMA4",
+    "LAMA5",
+    "LAMB1",
+    "LAMB2",
+    "LAMB3",
+    "LAMC1",
+    "LAMC2",
+    "LAMC3"
+  ],
+  "Collagens": [
+    "COL4A1",
+    "COL4A2",
+    "COL4A3",
+    "COL4A4",
+    "COL4A5",
+    "COL4A6",
+    "COL7A1",
+    "COL18A1"
+  ],
+  "Matrix partners": [
+    "HSPG2",
+    "NID1",
+    "NID2"
+  ],
+  "Integrin receptors": [
+    "ITGA1",
+    "ITGA2",
+    "ITGA3",
+    "ITGA6",
+    "ITGA7",
+    "ITGAV",
+    "ITGB1",
+    "ITGB4"
+  ]
+}

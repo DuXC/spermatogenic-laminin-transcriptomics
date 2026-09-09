@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite this version and the original data-generating studies."
+type: software
+title: "Spermatogenic laminin transcriptomics code and source data"
+version: 0.1.0
+date-released: 2026-09-10
+repository-code: https://github.com/DuXC/spermatogenic-laminin-transcriptomics
+authors:
+  - family-names: "Du"
+    given-names: "Xiancheng"
+    orcid: "https://orcid.org/0009-0000-4374-8818"
+  - family-names: "Tao"
+    given-names: "Shuchun"
+    orcid: "https://orcid.org/0009-0001-2467-5526"
+  - family-names: "Zhu"
+    given-names: "Yongkun"
+    orcid: "https://orcid.org/0000-0003-4041-5801"
+  - family-names: "Liu"
+    given-names: "Chunhui"
+    orcid: "https://orcid.org/0000-0003-0231-6271"
+  - family-names: "Sun"
+    given-names: "Chao"
+    orcid: "https://orcid.org/0000-0003-0538-1239"
