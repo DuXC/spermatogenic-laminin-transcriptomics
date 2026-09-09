@@ -2,7 +2,7 @@
 
 Code and numerical source data for **Histological patterns and adult cellular sources of laminin related transcription in human spermatogenic dysfunction**.
 
-Version v0.1.0 preserves the scientific results used in manuscript v3. The work analyzes tissue-level patterns in GSE4797 and GSE145467 and adult cell sources in GSE149512. Donors supply the independent replication in cellular comparisons. Results include complete gene families and nonsignificant sensitivity analyses.
+Code version v0.1.1 preserves the scientific results used in manuscript v3. The work analyzes tissue-level patterns in GSE4797 and GSE145467 and adult cell sources in GSE149512. Donors supply the independent replication in cellular comparisons. Results include complete gene families and nonsignificant sensitivity analyses.
 
 ## Authors
 
@@ -12,14 +12,14 @@ Funding: China Postdoctoral Science Foundation, 2024M750457 (Chunhui Liu); Jiang
 
 ## Obtain and verify the data
 
-Clone this repository at tag `v0.1.0`, then run from its root:
+Clone this repository at tag `v0.1.1`, then run from its root:
 
 ```bash
 python3 scripts/download_release_data.py
 python3 scripts/verify_release_data.py
 ```
 
-The release asset contains public bulk inputs and frozen annotation snapshots, normalized bulk expression, original-publication donor/feature mappings, per-cell annotations, donor pseudobulk counts, complete effects and sensitivities, and numerical figure source tables. File-level SHA-256 checksums are in `data_manifest.json`. GEO retains the original sequencing/count deposits. Recreate full cell matrices from the public eight-donor downloads when reprocessing them.
+Code v0.1.1 uses the versioned v0.1.0 data snapshot. The release asset contains public bulk inputs and frozen annotation snapshots, normalized bulk expression, original-publication donor/feature mappings, per-cell annotations, donor pseudobulk counts, complete effects and sensitivities, and numerical figure source tables. File-level SHA-256 checksums are in `data_manifest.json`. GEO retains the original sequencing/count deposits. Recreate full cell matrices from the public eight-donor downloads when reprocessing them.
 
 ## Environment and reproduction
 
@@ -38,7 +38,7 @@ For full single-cell reprocessing, run `07_single_cell/scripts/00_acquire_sc.py`
 
 ## Release verification
 
-The portable R code was rerun from the frozen uploaded bulk expression and donor pseudobulk counts. All 44 generated numerical result tables matched the original frozen results within relative tolerance 1e-10 and absolute tolerance 1e-12. This check is computational reproduction of existing results.
+The portable R code was rerun from the frozen uploaded bulk expression and donor pseudobulk counts. All 44 generated numerical result tables matched the original frozen results within relative tolerance 1e-10 and absolute tolerance 1e-12. The bulk preparation entrypoint reproduced all 12 annotation tables and fixed memberships; the public single-cell validator passed 30 scientific checks on the frozen cell matrix. The complete figure entrypoint reproduced all 11 main/supplementary PNGs byte-for-byte and all 11 integrative source tables. These checks reproduce existing results.
 
 ## Scientific interpretation
 

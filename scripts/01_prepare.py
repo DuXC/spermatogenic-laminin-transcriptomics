@@ -119,5 +119,5 @@ markers={'Sertoli_markers':['SOX9','WT1','FSHR','CLDN11','GATA4'],'Leydig_marker
 pd.DataFrame(rows).to_csv(ANN/'fixed_pathway_membership.tsv',sep='\t',index=False)
 (ANN/'fixed_gene_sets.json').write_text(json.dumps({'primary':sets,'exploratory_markers':markers},indent=2))
 (ROOT/'00_admin/preparation_audit.json').write_text(json.dumps(audit,indent=2))
-for p in [ROOT/'00_admin/ANALYSIS_PLAN_v1_20260909.md',ROOT/'00_admin/COLLISION_CHECK_20260909.md',ANN/'fixed_gene_sets.json']:
+for p in [ANN/'fixed_gene_sets.json', ROOT/'data_manifest.json']:
     print('FROZEN',p.name,hashlib.sha256(p.read_bytes()).hexdigest())

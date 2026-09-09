@@ -1,0 +1,9 @@
+{
+  "ECM_genes_excluded_from_positive_markers_and_control_pool": true,
+  "annotations_assigned_after_QA": true,
+  "clinical_reinspection": {
+    "LZ011_total_cells": 7896,
+    "LZ014_Sertoli_cells": 27
+  },
+  "evidence": "SI page 2, Supplementary Figure 1a; high-resolution clinical crop retained"
+}

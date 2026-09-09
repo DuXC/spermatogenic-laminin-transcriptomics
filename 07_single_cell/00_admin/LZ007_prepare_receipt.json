@@ -1,0 +1,13 @@
+{
+  "donor_id": "LZ007",
+  "status": "complete",
+  "threshold": 0.3733000622668195,
+  "predicted_doublets": 86,
+  "raw_cells": 10440,
+  "primary_qc_cells": 9313,
+  "raw_features": 44453,
+  "mapped_genes": 28529,
+  "unmapped_features": 15842,
+  "mitochondrial_features": 37,
+  "max_original_count": 8202
+}

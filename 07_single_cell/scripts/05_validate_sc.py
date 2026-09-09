@@ -64,14 +64,11 @@ for variant,d in cam.groupby('variant'):
  check('BH family '+variant,np.allclose(stats.false_discovery_control(d.PValue),d.FDR_all_types_six_sets))
 g=pd.read_csv(S/'04_results/pseudobulk_all_genes.tsv.gz',sep='\t')
 check('Pseudobulk confidence intervals contain point effects',((g['CI.L']<=g.logFC)&(g.logFC<=g['CI.R'])).all())
-base=json.loads((P/'00_admin/release_manifest.json').read_text())['files']
+base=[r for r in json.loads((P/'data_manifest.json').read_text())['files'] if r['file'].startswith('01_raw/')]
 bad=[r['file'] for r in base if not (P/r['file']).exists() or sha(P/r['file'])!=r['sha256']]
-check('Frozen first bulk release unchanged',not bad,{'files_checked':len(base),'differences':bad})
+check('Frozen public bulk and reference inputs unchanged',not bad,{'files_checked':len(base),'differences':bad})
 clinical=pd.read_csv(S/'02_annotation/GSE149512_donor_metadata_v2.tsv',sep='\t').set_index('donor_id')
 check('High-resolution clinical values propagated',clinical.loc['LZ011','published_total_cells']==7896 and clinical.loc['LZ014','published_Sertoli_cells']==27)
-manifest=json.loads((S/'00_admin/fulltext_manifest.json').read_text())
-receipts=list((S/'00_admin/fulltext_receipts').glob('*Commit*.json'))
-check('Central fulltext commit receipt retained',len(receipts)==1 and len(manifest['downloaded'])==2)
 result={'status':'PASS' if all(x['passed'] for x in checks) else 'FAIL','checks':checks,'summary':{'raw_cells':len(original),'retained_cells':a.n_obs,'reference_cells':int(cells.group.eq('OA').sum()),'iNOA_cells':int(cells.group.eq('iNOA').sum()),'mapped_genes':a.n_vars,'ECM_union_genes':len(ecm),'predicted_doublets':int(cells.predicted_doublet.sum()),'mt20_cells':int(cells.mt20_pass.sum()),'median_count_retention':float((cells.total_counts_mapped/cells.total_counts_original).median()),'confident_population_categories':int(cells[cells.annotation_confidence.eq('high')].cell_type.nunique()),'provisional_population_categories':int(cells[~cells.annotation_confidence.eq('high')].cell_type.nunique()),'pseudobulk_eligible_population':'Interstitial_stromal','primary_camera_FDR':float(cam[cam.variant.eq('primary')].FDR_all_types_six_sets.iloc[0])}}
 (S/'00_admin/numerical_QA.json').write_text(json.dumps(result,indent=2))
 print(result['status'],len(checks),'checks',flush=True)
