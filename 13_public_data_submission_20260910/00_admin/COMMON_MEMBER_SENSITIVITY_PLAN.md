@@ -1,0 +1,9 @@
+# Four cohort common member sensitivity
+
+Recorded on 10 September 2026 before calculating the new sensitivity results. The original cohort effects have already been inspected. This is a post hoc coverage sensitivity, not a new preregistered primary analysis.
+
+Question: do the tissue score directions persist when all four bulk cohorts use the identical measurable portion of each of the six previously frozen ECM programs?
+
+Use the existing primary processed matrices and approved gene identifiers for GSE4797, GSE145467, GSE9210 and GSE108886. Intersect measured gene membership across all four matrices, separately for each unchanged program; do not select genes by direction or significance. Retain the original within-cohort sample sets, transformation scales and group models. Standardize each gene within its full cohort using the sample standard deviation, then average common-member z scores for each sample. Report OLS contrasts and 95% t intervals for JS2 minus JS10 in the four-group GSE4797 model, impaired minus normal in GSE145467, and NOA minus OA in each external cohort. Adjust the 24 cohort-program tests together by Benjamini-Hochberg. These calibrated-within-cohort scores are not an absolute cross-platform expression scale.
+
+For the fixed laminin program only, omit each common member once and recompute the same score contrast. Report every omission and its interval as an influence analysis, without selecting a preferred membership or testing a new set of biological hypotheses. Do not pool different clinical contrasts into a meta-analytic effect. This sensitivity does not replace full-member reporting, competitive CAMERA inference or the existing ten-member competitive-test threshold. Archive input hashes, full memberships, participant scores, all 24 tests and all gene-omission outputs. Preserve negative or unstable results.

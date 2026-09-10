@@ -8,6 +8,14 @@
 
 This archive attributes reused data and does not transfer ownership of the original studies. Cite the original sources and comply with their applicable terms when reusing those materials. Third-party source files are not relicensed by the project MIT license.
 
+## Protein extension in v0.3.0
+
+- PXD011817: Alfano et al., Fertility and Sterility 2019, [10.1016/j.fertnstert.2018.12.002](https://doi.org/10.1016/j.fertnstert.2018.12.002). Participant-level numerical derivatives, mappings and full analysis outputs are supplied with attribution. Original PRIDE QUANT.xlsx and publisher Table S5 remain at their sources; URLs and checksums are in the extension data dictionary.
+- PXD023979: Di Persio et al., Cell Reports Medicine 2021, [10.1016/j.xcrm.2021.100395](https://doi.org/10.1016/j.xcrm.2021.100395). Original Table S1 establishes overlap with GSE153947. No new protein inference is included while the ten-channel/nine-participant dictionary is unresolved.
+- PXD032722: Davalieva et al., Journal of Proteomics 2022, [10.1016/j.jprot.2022.104686](https://doi.org/10.1016/j.jprot.2022.104686). The candidate-resource audit records unresolved acquisition comparability; no inferential results are included.
+
+Third-party workbooks and full-text articles are not part of this extension. Rights in original datasets remain with their producers and repositories. The current repository licenses cover our original code, documentation and derived analyses and do not replace source terms.
+
 ## External validation sources in v0.2.0
 
 - GSE9210, 58 individual biopsies: Okada et al., PLoS Genetics 2008, [10.1371/journal.pgen.0040026](https://doi.org/10.1371/journal.pgen.0040026).

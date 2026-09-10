@@ -1,0 +1,11 @@
+participant	ecm_id	group	histology_source
+ECM1	1	SRpos	heterogeneous residual spermatogenesis
+ECM2	2	SRpos	heterogeneous residual spermatogenesis
+ECM3	3	SRpos	heterogeneous residual spermatogenesis
+ECM4	4	SRpos	heterogeneous residual spermatogenesis
+ECM5	5	SRpos	heterogeneous residual spermatogenesis
+ECM6	6	SRneg	SCO
+ECM7	7	SRneg	SCO
+ECM8	8	SRneg	SCO
+ECM9	9	SRneg	SCO
+ECM10	10	SRneg	SCO

@@ -1,8 +1,8 @@
 # Spermatogenic laminin transcriptomics
 
-Code and numerical source data for **Laminin related transcription across human spermatogenic histologies and adult peritubular cell states**.
+Code and numerical source data for **Laminin related transcription and extracellular matrix proteins in human spermatogenic dysfunction**.
 
-Version v0.2.0 includes manuscript v4: four separately analyzed bulk cohorts (117 biopsies or study samples) and two adult single-cell cohorts (14 donors). New analyses add GSE9210, GSE108886 and GSE153947 to the original GSE4797, GSE145467 and GSE149512 analysis. Donors supply independent replication in cellular comparisons. Complete fixed programs, measured and unmeasured members, and negative results are retained.
+Version v0.3.0 adds an isolated-ECM protein comparison in ten men with iNOA, a post hoc common-member sensitivity across the four bulk cohorts, and complete source tables for manuscript v5. The earlier v0.2.0 extension included: four separately analyzed bulk cohorts (117 biopsies or study samples) and two adult single-cell cohorts (14 donors). New analyses add GSE9210, GSE108886 and GSE153947 to the original GSE4797, GSE145467 and GSE149512 analysis. Donors supply independent replication in cellular comparisons. Complete fixed programs, measured and unmeasured members, and negative results are retained.
 
 ## Authors
 
@@ -12,7 +12,7 @@ Funding: China Postdoctoral Science Foundation, 2024M750457 (Chunhui Liu); Jiang
 
 ## Obtain and verify the data
 
-Clone this repository at tag `v0.2.0`, then run from its root:
+Clone this repository at tag `v0.3.0`, then run from its root:
 
 ```bash
 python3 scripts/download_release_data.py
@@ -21,7 +21,7 @@ python3 scripts/download_external_data.py
 python3 scripts/verify_external_data.py
 ```
 
-Code v0.2.0 uses the original v0.1.0 data snapshot and a separate v0.2.0 external-validation asset. The original download script still retrieves the v0.1.0 snapshot. The release asset contains public bulk inputs and frozen annotation snapshots, normalized bulk expression, original-publication donor/feature mappings, per-cell annotations, donor pseudobulk counts, complete effects and sensitivities, and numerical figure source tables. File-level SHA-256 checksums are in `data_manifest.json`. GEO retains the original sequencing/count deposits. Recreate full cell matrices from the public eight-donor downloads when reprocessing them.
+The current code uses the original v0.1.0 data snapshot and a separate v0.2.0 external-validation asset. The original download script still retrieves the v0.1.0 snapshot. The release asset contains public bulk inputs and frozen annotation snapshots, normalized bulk expression, original-publication donor/feature mappings, per-cell annotations, donor pseudobulk counts, complete effects and sensitivities, and numerical figure source tables. File-level SHA-256 checksums are in `data_manifest.json`. GEO retains the original sequencing/count deposits. Recreate full cell matrices from the public eight-donor downloads when reprocessing them.
 
 ## Environment and reproduction
 
@@ -57,6 +57,21 @@ The external entrypoints are rooted at `10_external_validation_20260910`. The na
 ## Release verification
 
 The portable R code was rerun from the frozen uploaded bulk expression and donor pseudobulk counts. All 44 generated numerical result tables matched the original frozen results within relative tolerance 1e-10 and absolute tolerance 1e-12. The bulk preparation entrypoint reproduced all 12 annotation tables and fixed memberships; the public single-cell validator passed 30 scientific checks on the frozen cell matrix. The complete figure entrypoint reproduced all 11 main/supplementary PNGs byte-for-byte and all 11 integrative source tables. These checks reproduce the original v3 results. For the v0.2.0 extension, public bulk preparation and both model entrypoints reproduced all 40 checked numerical tables at relative tolerance 1e-10 and absolute tolerance 1e-12. The portable scientific validator passed 117 checks. All three new PNGs reproduced byte-for-byte. The six raw single-cell aggregation runs were completed during analysis; they were not repeated solely for repository packaging.
+
+## Protein and common-member extension
+
+The small v0.3.0 participant-level protein inputs and complete outputs are included directly in the tagged source checkout. No third-party article or supplementary workbook is redistributed. After obtaining the two earlier data assets, run:
+
+```bash
+python3 scripts/verify_public_extension.py
+bash scripts/run_public_extension.sh
+```
+
+This reruns the protein models, all 24 common-member score contrasts, the independent R verification of those contrasts, and Figures 6 and S10. The protein preparation script can additionally rebuild participant inputs from the two original workbooks; see `PUBLIC_EXTENSION_DATA_DICTIONARY.md` for lawful source URLs, exact hashes and placement. Numerical verification compares regenerated outputs to the frozen analysis with relative tolerance 1e-10 and absolute tolerance 1e-12. These checks verify reproduction, not independent biological replication.
+
+The original six programs and clinical group models remain fixed. The four-cohort intersection retains eight laminin-interaction members: COL4A1, COL4A2, COL4A5, COL4A6, COL7A1, ITGA3, ITGA6 and LAMC3. This is a restricted, post hoc coverage sensitivity. PXD011817 compares retrieval-negative with retrieval-positive iNOA; all six competitive protein results are nonsignificant and its laminin score interval is wide. PXD023979 and PXD032722 do not contribute inferential results while channel mapping and acquisition comparability remain unresolved. Original Table S1 establishes that five PXD023979 participants also appear in GSE153947; those assays cannot provide fully independent donor replication.
+
+The two extension folders preserve their analysis-stage names for portable code paths. `public_extension_manifest.json` inventories all new numerical source data. Environment records and the locally frozen plans accompany the code. Reproduction overwrites generated results within the checkout; use a fresh clone if preserving exact released bytes is necessary. Checksum verification applies before reproduction.
 
 ## Scientific interpretation
 

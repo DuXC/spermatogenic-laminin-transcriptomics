@@ -1,0 +1,77 @@
+{
+  "status": "COMPLETE",
+  "plan_sha256": "fc2ca25a914685f5b4823ac47c0d80bda1fb2cd82e8bd9026a63b3ff75367a4e",
+  "inputs": {
+    "03_processed/GSE4797_gene_log_expression.tsv.gz": "8b8039f7dec49e81e41004d6d146997721844251470b2898259c6b65ad24d5fd",
+    "02_annotation/GSE4797_samples.tsv": "76d7cfd90e45d79c38e3e3bca8d82395b11f5af9e32b2d04420c117334cbfff3",
+    "03_processed/GSE145467_gene_log_expression.tsv.gz": "94088a9ec8a54238fd85112fd23f43e2b4f644371322e2f851c8915af58bdee5",
+    "02_annotation/GSE145467_samples.tsv": "95f9e39ba69242d18a43e9742352570a782b9d9ce930bd3882a6cc7f7825cfd8",
+    "10_external_validation_20260910/03_processed/GSE9210_primary_gene_expression.tsv.gz": "851e7dfc4c98060160a85d17128add628599e1e4f5d813dd5f55c65991e302f3",
+    "10_external_validation_20260910/01_metadata/GSE9210_analysis_samples.tsv": "16a21dca227711420091aada2d05cd1691bfd45c4dee7c3ff32d0862c1cb31e1",
+    "10_external_validation_20260910/03_processed/GSE108886_primary_gene_expression.tsv.gz": "af03d1b3d888d49ed52e73d7b2210b5fc05b64b96c5f631455d73c3084c785c4",
+    "10_external_validation_20260910/01_metadata/GSE108886_analysis_samples.tsv": "48e393f4671b3283db565b4b1cf83d0c380578a7d176c29e85de14d168c9ea48",
+    "02_annotation/fixed_pathway_membership.tsv": "1b7e2c7c3e827777cc038f3222324e113fc89501ab8ae8d53fd32e57c0adb810"
+  },
+  "common_background_genes": 3464,
+  "post_hoc": true,
+  "tests": 24,
+  "cohort_effects_not_pooled": true,
+  "laminin": [
+    {
+      "cohort": "GSE4797",
+      "program": "REACTOME_LAMININ_INTERACTIONS",
+      "n_common": 8,
+      "n_fixed": 30,
+      "effect": 1.7465202134105087,
+      "CI_low": 1.3490848167747937,
+      "CI_high": 2.1439556100462234,
+      "SE": 0.1925653731364655,
+      "df": 24,
+      "p": 3.193195643072662e-09,
+      "n": 28,
+      "BH_FDR_24_tests": 6.386391286145325e-09
+    },
+    {
+      "cohort": "GSE145467",
+      "program": "REACTOME_LAMININ_INTERACTIONS",
+      "n_common": 8,
+      "n_fixed": 30,
+      "effect": 1.1046283534431314,
+      "CI_low": 0.962908078064477,
+      "CI_high": 1.2463486288217858,
+      "SE": 0.06745622762965296,
+      "df": 18,
+      "p": 2.9441254576863154e-12,
+      "n": 20,
+      "BH_FDR_24_tests": 1.0094144426353081e-11
+    },
+    {
+      "cohort": "GSE9210",
+      "program": "REACTOME_LAMININ_INTERACTIONS",
+      "n_common": 8,
+      "n_fixed": 30,
+      "effect": 1.5095209875549491,
+      "CI_low": 1.2356988969123417,
+      "CI_high": 1.7833430781975566,
+      "SE": 0.13668955910605257,
+      "df": 56,
+      "p": 1.1092046737653137e-15,
+      "n": 58,
+      "BH_FDR_24_tests": 2.662091217036753e-14
+    },
+    {
+      "cohort": "GSE108886",
+      "program": "REACTOME_LAMININ_INTERACTIONS",
+      "n_common": 8,
+      "n_fixed": 30,
+      "effect": 1.3351620207701524,
+      "CI_low": 0.35456047810936564,
+      "CI_high": 2.3157635634309393,
+      "SE": 0.4334807319257248,
+      "df": 9,
+      "p": 0.013137940183490784,
+      "n": 11,
+      "BH_FDR_24_tests": 0.013709154974077339
+    }
+  ]
+}

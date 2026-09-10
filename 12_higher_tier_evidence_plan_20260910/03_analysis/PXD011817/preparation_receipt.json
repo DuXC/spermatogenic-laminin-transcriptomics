@@ -1,0 +1,78 @@
+{
+  "status": "PREPARED_AFTER_EXACT_SUPPLEMENT_MAPPING",
+  "comparison": "SRneg minus SRpos within iNOA",
+  "participants": 10,
+  "group_n": {
+    "SRpos": 5,
+    "SRneg": 5
+  },
+  "technical_replicates_per_patient": 3,
+  "matched_supplement_protein_groups": 105,
+  "matched_numeric_values": 3150,
+  "all_values_exact": true,
+  "original_elaborated_groups": 837,
+  "gene_annotated_quality_groups": 595,
+  "selected_gene_groups": 592,
+  "min3_each_group_genes": 412,
+  "complete_case_genes": 300,
+  "coverage": [
+    {
+      "program": "REACTOME_COLLAGEN_FORMATION",
+      "fixed_members": 90,
+      "min3_each_group": 18,
+      "complete_case_members": 14,
+      "genes": "COL15A1;COL16A1;COL18A1;COL1A1;COL1A2;COL4A1;COL4A2;COL4A6;COL5A2;COL6A1;COL6A2;COL6A3;PLEC;SERPINH1",
+      "status": "EVALUABLE"
+    },
+    {
+      "program": "REACTOME_DEGRADATION_OF_THE_EXTRACELLULAR_MATRIX",
+      "fixed_members": 140,
+      "min3_each_group": 26,
+      "complete_case_members": 22,
+      "genes": "CMA1;COL15A1;COL16A1;COL18A1;COL1A1;COL1A2;COL4A1;COL4A2;COL4A6;COL5A2;COL6A1;COL6A2;COL6A3;CTSG;DCN;FBN1;FN1;HSPG2;LAMA5;LAMB1;LAMC1;NID1",
+      "status": "EVALUABLE"
+    },
+    {
+      "program": "REACTOME_EXTRACELLULAR_MATRIX_ORGANIZATION",
+      "fixed_members": 321,
+      "min3_each_group": 58,
+      "complete_case_members": 49,
+      "genes": "ACTG1;ACTN1;AGRN;ASPN;BGN;CMA1;COL15A1;COL16A1;COL18A1;COL1A1;COL1A2;COL4A1;COL4A2;COL4A6;COL5A2;COL6A1;COL6A2;COL6A3;CTSG;DCN;EMILIN1;EMILIN3;FBLN2;FBN1;FGA;FGG;FN1;HSPG2;LAMA1;LAMA2;LAMA4;LAMA5;LAMB1;LAMB2;LAMC1;LAMC3;LTBP4;LUM;MFAP2;MFAP4;MFAP5;NID1;NID2;PLEC;SERPINH1;SNTB2;VCAN;VTN;VWF",
+      "status": "EVALUABLE"
+    },
+    {
+      "program": "REACTOME_INTEGRIN_CELL_SURFACE_INTERACTIONS",
+      "fixed_members": 85,
+      "min3_each_group": 22,
+      "complete_case_members": 20,
+      "genes": "AGRN;COL16A1;COL18A1;COL1A1;COL1A2;COL4A1;COL4A2;COL4A6;COL5A2;COL6A1;COL6A2;COL6A3;FBN1;FGA;FGG;FN1;HSPG2;LUM;VTN;VWF",
+      "status": "EVALUABLE"
+    },
+    {
+      "program": "REACTOME_LAMININ_INTERACTIONS",
+      "fixed_members": 30,
+      "min3_each_group": 15,
+      "complete_case_members": 15,
+      "genes": "COL18A1;COL4A1;COL4A2;COL4A6;HSPG2;LAMA1;LAMA2;LAMA4;LAMA5;LAMB1;LAMB2;LAMC1;LAMC3;NID1;NID2",
+      "status": "EVALUABLE"
+    },
+    {
+      "program": "GOCC_BASEMENT_MEMBRANE",
+      "fixed_members": 99,
+      "min3_each_group": 25,
+      "complete_case_members": 25,
+      "genes": "AGRN;COL15A1;COL16A1;COL18A1;COL4A1;COL4A2;COL4A6;COL6A1;FBN1;FN1;HSPG2;LAMA1;LAMA2;LAMA4;LAMA5;LAMB1;LAMB2;LAMC1;LAMC3;MATN2;NID1;NID2;TGFBI;VTN;VWA1",
+      "status": "EVALUABLE"
+    }
+  ],
+  "source_sha256": {
+    "PXD011817_QUANT.xlsx": "7d2e64dc6cbf8a231d49fdb1bd249c6da849d242efd5b4c5f15852a4785a98b1",
+    "Alfano2019_mmc5.xlsx": "68a28be6584f875929d728560e8c8af0095832c88c56b1925eec49bc2bd189f2",
+    "PXD011817_ANALYSIS_PLAN.md": "c2bbc7a76484d6a11313e45c2ce3a95ece383db59876bc4cb30903a1a15746d5"
+  },
+  "limitations": [
+    "No individual clinical covariates or verified acquisition randomization in downloaded files.",
+    "Single-gene annotation excludes unresolved names but does not independently verify each accession.",
+    "Isolated ECM retrieval strata are not OA versus NOA."
+  ]
+}

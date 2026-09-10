@@ -1,0 +1,156 @@
+{
+  "version": "0.3.0",
+  "description": "Protein participant inputs, full results, common-member sensitivity and new source tables. Earlier data assets remain v0.1.0 and v0.2.0.",
+  "files": [
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/supplement_to_PRIDE_value_check.tsv",
+      "bytes": 9000,
+      "sha256": "70f21599a4b6c0e2f252df76c3f728a41d50004e614d2a63216b86b8f3912686"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/technical_run_to_participant.tsv",
+      "bytes": 3456,
+      "sha256": "096320302c1187b7ef423901702e0978837dda4fad8a8cd504f57fd82c1e307e"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/participants.tsv",
+      "bytes": 389,
+      "sha256": "84272b9a38756dec53d550e4ac9774bc3793edc0782929f42ede4dbb92aad06e"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/all_protein_group_annotation_audit.tsv",
+      "bytes": 142914,
+      "sha256": "45ba89d2410b03b7ed5daf124d3721c48de4c22858dbca6244a0c6b85d36326e"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/gene_log2_LFQ_min3_each_group.tsv",
+      "bytes": 76066,
+      "sha256": "02ee42c0473147c6b6be26c84d5a62a754ebdfb4ca6a0a4da4f00bd9ef119c4e"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/gene_log2_LFQ_complete_10.tsv",
+      "bytes": 57630,
+      "sha256": "79e39076d399cc4378f86dc6223af35265b84a9f7560f4687358294f964b0e6c"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/fixed_program_coverage.tsv",
+      "bytes": 1300,
+      "sha256": "0eb31049652d2a339a239d7a548b6f78a90a531ecc60a3a6d6146756daae5a25"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/participant_coverage_QC.tsv",
+      "bytes": 332,
+      "sha256": "496b091c9f1402335cb6bb4bb50a2d63877f75422affa90605b8d377af9aaf05"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/camera_estimated_correlation.tsv",
+      "bytes": 576,
+      "sha256": "517e3a63c1668a45aabfddc79b910848e8c306267ad4a2b18c97d7aa382e332a"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/camera_fixed_correlation_001.tsv",
+      "bytes": 583,
+      "sha256": "21abb1804cab9bdb73728fc7b2b19fb10136bce200240cb1d8aad082c42a4df3"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/all_gene_results.tsv",
+      "bytes": 63193,
+      "sha256": "3ecaae42af034f30edb133ab0a58258d934be03d6865e2b7498b8809651eddb4"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/program_score_group_effects.tsv",
+      "bytes": 839,
+      "sha256": "c13a867b5a79ca8cdd7b484e70b49d6ebb42d6159bba9dd3f326431c751c7396"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/participant_program_scores.tsv",
+      "bytes": 1719,
+      "sha256": "9a41878277aa38682c117be3dc497f2b1e6ddaadca0a2b668b1d41c4e5e21e25"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/laminin_leave_one_participant_out.tsv",
+      "bytes": 1316,
+      "sha256": "edf1b5d1693793e22249f087300becd150bd64d36d3defa7a6bfd4c4c1733aa4"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/all_30_laminin_members_results.tsv",
+      "bytes": 2535,
+      "sha256": "30e295702e3ba313d1e1f4f8c104c1faacff1a441685978b609984ddce2d6ee0"
+    },
+    {
+      "path": "12_higher_tier_evidence_plan_20260910/03_analysis/PXD011817/preparation_receipt.json",
+      "bytes": 3257,
+      "sha256": "e2985a2192d9415b9f58c4652ae3531af5923675d3622bad8f5205e6e08fbe73"
+    },
+    {
+      "path": "13_public_data_submission_20260910/02_sources/common_member/all_program_contrasts.tsv",
+      "bytes": 4340,
+      "sha256": "e539ba4395c1f0573bbc76c31b50448ef81b5d1a33b515a79afdede031ea804c"
+    },
+    {
+      "path": "13_public_data_submission_20260910/02_sources/common_member/common_member_audit.tsv",
+      "bytes": 39308,
+      "sha256": "ac3f69086d102a0e64e08d2e71ea146b0e102a8b98d34ad5ddd7a275c2dcde5d"
+    },
+    {
+      "path": "13_public_data_submission_20260910/02_sources/common_member/sample_scores.tsv",
+      "bytes": 55834,
+      "sha256": "3b57a070dd65abe15572d992916da73ba949268473b629d222503dc24a640a87"
+    },
+    {
+      "path": "13_public_data_submission_20260910/02_sources/common_member/laminin_leave_one_gene_out.tsv",
+      "bytes": 3957,
+      "sha256": "1b8d8e65e0096f5b23041a3b870238b9b436026f3ddcc91e02381405c3f7550d"
+    },
+    {
+      "path": "13_public_data_submission_20260910/02_sources/common_member/receipt.json",
+      "bytes": 3006,
+      "sha256": "1379a6a79b38304505cdf156c55a815e7cc7d2a203d489e7b06442bab4df4c61"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_1_analyzed_cohorts_v5.tsv",
+      "bytes": 1287,
+      "sha256": "5637d53e2c6b4a0f53d0477532b7aec67d56deb93ef1276f575dfbc63ed3ef31"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S18_isolated_ecm_program_results.tsv",
+      "bytes": 1370,
+      "sha256": "acdb0b42c01516c69c7664435a8756f39b7d701fe65ae2c152efb38e0c2f84ad"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S19_complete_protein_gene_effects.tsv",
+      "bytes": 63179,
+      "sha256": "22479df0b981373ff65f310ac729480b173bb00988d4d4c3b09d975e3f2f0c87"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S20_all_thirty_laminin_protein_members.tsv",
+      "bytes": 2535,
+      "sha256": "30e295702e3ba313d1e1f4f8c104c1faacff1a441685978b609984ddce2d6ee0"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S21_protein_participant_program_scores.tsv",
+      "bytes": 1718,
+      "sha256": "ec31afcef8f661e3c34fb80729ede1eb20d1bd7011a75c6f42bc28fe46e364ea"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S22_proteomics_eligibility_and_lineage_audit.tsv",
+      "bytes": 790,
+      "sha256": "3325c8582eafe86f133952aacca18ba755e3ba190d1442fef4408d59736feb3a"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S23_four_cohort_common_member_score_tests.tsv",
+      "bytes": 4289,
+      "sha256": "2b03df7965ca40e0fec099704973e3a9f36958da5e17ef4e66b3b09cdf0c63c1"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S24_laminin_leave_one_gene_out_sensitivity.tsv",
+      "bytes": 3908,
+      "sha256": "d485522c76470e2d46c798b5ba88bc71b50ab1be45adf7a30c345bc1f45741e1"
+    },
+    {
+      "path": "13_public_data_submission_20260910/04_supplement/source_tables/Table_S25_four_cohort_common_member_coverage.tsv",
+      "bytes": 39308,
+      "sha256": "ac3f69086d102a0e64e08d2e71ea146b0e102a8b98d34ad5ddd7a275c2dcde5d"
+    }
+  ]
+}

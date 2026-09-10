@@ -1,0 +1,8 @@
+cohort	role	unit	groups	platform	measured_genes	scope
+GSE4797	Primary histological contrasts	28 men	JS10 12; JS8 6; JS5 5; JS2 5	CodeLink GPL2891	12931.0	Cross-sectional biopsy categories
+GSE145467	Independent bulk directional support	20 samples	Normal 10; impaired 10	Agilent GPL4133; two-channel common reference	18884.0	Broad groups; patient-level clinical linkage unresolved
+GSE149512 adult subset	Adult source reference and eligible pseudobulk	8 donors; 47003 cells	OA 5; iNOA 3	10X 2 OA; BD Rhapsody 3 OA and 3 iNOA	28529.0	Only broad interstitial cells eligible for BD 3 vs 3
+GSE9210	External bulk direction	58 men	NOA 47; OA 11	Agilent GPL887; common reference	4993.0	Only 9/30 laminin members; no competitive laminin test
+GSE108886	External bulk direction	11 men	NOA 8; OA 3	Illumina GPL10558	15721.0	Commercial pooled RNA excluded; normalized-signal scale
+GSE153947	Independent peritubular context	6 donors; 28666 cells	OA 3; cryptozoospermia 3	10X Chromium v2	37355.0	Mapped genes; peritubular 3 vs 3; author PMC-state sensitivity
+PXD011817	Orthogonal ECM protein comparison	10 men; technical triplicates aggregated	Retrieval positive 5; retrieval negative 5	Isolated ECM; label-free mass spectrometry	412.0	Within iNOA; 300 complete genes for programs; 15/30 laminin members

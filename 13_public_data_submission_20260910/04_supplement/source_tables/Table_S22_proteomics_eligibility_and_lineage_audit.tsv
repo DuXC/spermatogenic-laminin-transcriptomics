@@ -1,0 +1,4 @@
+accession	participants	comparison	status	reason	overlap_with_GSE153947	source
+PXD011817	10	iNOA retrieval-negative 5 versus retrieval-positive 5	ANALYSED	Supplementary allocation and 3150 LFQ values reconciled; triplicates aggregated	Separate study	10.1016/j.fertnstert.2018.12.002
+PXD023979	9	Cryptozoospermia 4 versus OA reference 5	AWAITING_CHANNEL_MAPPING	Ten TMT channels; nine participants. Numeric channel-to-participant dictionary unresolved	N1 N2 N3 Cr2 Cr3; five shared participants confirmed by original Table S1	10.1016/j.xcrm.2021.100395; Table S1
+PXD032722	27	OA 9 versus hypospermatogenesis 9 versus SCO 9	AWAITING_BATCH_METADATA	Filename date strata do not overlap across groups; acquisition order and cross-day QC not established	Separate study	10.1016/j.jprot.2022.104686
